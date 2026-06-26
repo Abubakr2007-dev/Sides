@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.cont1 {
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,50px);
+    gap: 5px;
+}
+.item {
+    background-color: rgb(247, 76, 76);
+}
+.cont2 {
+    display: grid;
+     grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,50px);
+    background-color: red;
+}
