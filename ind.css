@@ -199,3 +199,29 @@ background-color: rgb(2, 67, 2);
 {
     background-color:rgb(246, 23, 246) ;
 }
+
+
+
+
+.cont9 {
+      display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(4,50px);
+    gap: 5px;
+}
+
+.item25{
+    grid-column: 3;
+    grid-row: 2/4;
+    background-color: rgb(247, 76, 76);
+}
+.item26
+{
+    grid-column: 2/4;
+    grid-row:4 ;
+    background-color: rgb(247, 76, 76);
+}
+
+.item27 {
+    background-color:rgb(247, 76, 76) ;
+}
